@@ -23,7 +23,7 @@ def QuickSortSlice(A, i, j):
         QuickSortSlice(A, i, p)
         QuickSortSlice(A, p + 1, j)
         
-def QuickSort(A):
+def QuickSort(A): # Wrapper Function
     QuickSortSlice(A, 0, len(A))
     
 A = []
